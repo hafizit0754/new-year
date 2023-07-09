@@ -10,10 +10,11 @@
     flex-direction: column;
     justify-content: center;
     height: 100%;
-    text-align: right;
+    text-align: left;
     width: 50%;
     margin-left: auto;
     align-items: flex-end;
+    margin-right: 10px;
 }
 
 .banner {
@@ -23,7 +24,9 @@
     background-position: center;
     width: 100%;
     background-size: cover;
+
 }
+
 
 .btn-primary {
     border-radius: 5px;
@@ -34,6 +37,7 @@
     font-weight: 700;
     padding: 15px 35px;
     width: max-content;
+    padding: 2px;
 }
 
 /* failur part */
@@ -48,6 +52,10 @@
     color:#151414;
     font-size: 40px;
     font-weight: 700;
+}
+.failur-description{
+    padding-left: 2px;
+    text-align: left;
 }
 .img{
     display: flex;
@@ -79,4 +87,7 @@
 .watch{
     margin-top: 20%;
 
+}
+.my-plan{
+    padding: 10px;
 }
